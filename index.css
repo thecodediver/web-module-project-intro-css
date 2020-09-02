@@ -89,12 +89,27 @@ nav a.nav-btn{
     background-color: #FF764E;
 }
 
+.btn-one:hover {
+    animation-name: button-one;
+    animation-duration: 1.5s; 
+}
+
 .btn-two {
     background-color: #5ED3EB;
 }
 
+.btn-two:hover {
+    animation-name: button-two;
+    animation-duration: 1.5s; 
+}
+
 .btn-three {
     background-color: #FFCD69;
+}
+
+.btn-three:hover {
+    animation-name: button-three;
+    animation-duration: 1.5s; 
 }
 
 header div {
@@ -169,4 +184,23 @@ header div img {
 
 footer nav {
     background-color: #F9E7DC;
+}
+
+/* CSS Animations applied */
+@keyframes button-one {
+    0% {background-color: #FF764E;}
+    50% {background-color: black;}
+    100% {background-color: #FF764E;}
+}
+
+@keyframes button-two {
+    0% {background-color: #5ED3EB;}
+    50% {background-color: black;}
+    100% {background-color: #5ED3EB;}
+}
+
+@keyframes button-three {
+    0% {background-color: #FFCD69;}
+    50% {background-color: black;}
+    100% {background-color: #FFCD69;}
 }
